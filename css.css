@@ -1,12 +1,13 @@
 #pixelated {
-    width: 128px;
-    height: 64px;
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(128, 1px);
-    grid-template-rows: repeat(64, 1px);
+  width: 128px;
+  height: 64px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(128, 1px);
+  grid-template-rows: repeat(64, 1px);
   }
   
   .pixel {
-    background-color: white;
+  background-color: white;
+  transition: opacity 0.5s ease-in-out;
   }
