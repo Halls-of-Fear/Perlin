@@ -15,4 +15,4 @@ function animateNoise() {
   });
 }
 
-setInterval(animateNoise, 100);
+setInterval(animateNoise, 150);
